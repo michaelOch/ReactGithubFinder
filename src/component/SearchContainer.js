@@ -66,7 +66,7 @@ class SearchContainer extends Component {
                 content = <Content data={this.state.data}/>
                 repo = this.state.repos;
                 if(isLoadedRepos && repo.length) {
-                    for(let i = 0; i < this.repos_count; i++) {
+                    for(let i = 0; i < repo.length; i++) {
                         repos.push(<Repos key={repo[i].id} repo={repo[i]} />);
                     }
                 }
