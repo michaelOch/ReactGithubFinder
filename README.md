@@ -1,4 +1,4 @@
-## Available Scripts
+## Github Finder
 
 This is a Github User Profile finder.
 
